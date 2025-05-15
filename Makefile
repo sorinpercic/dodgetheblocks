@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -std=c99 -Oz
+CFLAGS = -Wall -std=c99 
 LDFLAGS = -lraylib -lm -ldl -lpthread -lGL -lrt -lX11
 
 all: build run
